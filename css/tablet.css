@@ -1,0 +1,14 @@
+@media (max-width: 990px) {
+  /* JOB-INFO */
+  #job-info .container- {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* CERTIFICATE */
+  #certificate img {
+    width: 200px;
+  }
+  #certificate .body > div {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

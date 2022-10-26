@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+body {
+  position: relative;
+  line-height: 1.5;
+}
+.bg-grey {
+  background: #f7f7f7;
+  width: 100%;
+}
+/* BANNER */
+#banner {
+  position: relative;
+}
+#banner img {
+  height: 70vh;
+  width: 100%;
+  filter: brightness(50%);
+  object-fit: none;
+}
+.text {
+  position: absolute;
+  text-align: center;
+  display: block;
+  transform: translate(-50%, -50%);
+  top: 30%;
+  left: 50%;
+  color: white;
+}
+.text h1 {
+  font-size: 48px;
+}
+.text span {
+  font-size: 20px;
+  color: #adb5bd;
+}
+/* NAVBAR */
+#nav-bar img {
+  object-fit: cover;
+  object-position: -20% 0;
+  border-radius: 50%;
+  border: 10px solid #fff;
+  width: 150px;
+  height: 150px;
+}
+#nav-bar div {
+  padding: 0 100px;
+}
+#nav-bar a {
+  padding: 20px 50px;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  text-transform: uppercase;
+  border-left: solid 1px #f1f3f5;
+  border-right: solid 1px #f1f3f5;
+}
+
+i {
+  color: #117ee4;
+}
+#nav-bar a:hover {
+  background-color: #f1f3f5;
+}
+/* ABOUT */
+#about .container- {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  line-height: 2;
+}
+#target {
+  padding: 60px 60px 60px 100px;
+}
+#personal-info {
+  background: #adb5bd;
+  padding: 60px 0 60px 60px;
+}
+.media {
+  padding-left: 20px;
+}
+/* JOB-INFO */
+
+#job-info span {
+  background: #199cdb;
+  display: inline-block;
+  height: 3px;
+  margin-right: 10px;
+  width: 45px;
+}
+#job-info .container- {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin: 10px 30px;
+}
+#job-info .header {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding: 20px 0;
+}
+.header h1 {
+  padding-left: 20px;
+}
+#job-info .container- > div {
+  border: solid 2px #d3d3d3;
+  height: 450px;
+}
+.header i {
+  font-size: 42px;
+  text-align: center;
+  color: #199cdb;
+}
+#job-info .body {
+  font-size: 14px;
+  padding: 20px 20px 20px 30px;
+}
+#job-info span {
+  position: relative;
+  top: -25px;
+}
+#hobby .body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  padding: 20px 10px;
+}
+#hobby p {
+  padding-top: 30px;
+  font-size: 14px;
+  color: black;
+}
+#hobby .body i {
+  font-size: 24px;
+  color: #199cdb;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+.icon {
+  width: 48px;
+  height: 48px;
+  border: solid 1px #199cdb;
+  border-radius: 50%;
+  margin-left: 25px;
+}
+/* PROJECT */
+#project .container- {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+#project h1 {
+  padding: 20px 0;
+  margin-top: 20px;
+}
+#project img {
+  max-width: 100%;
+  max-height: 100%;
+  border-bottom: solid 1px #d3d3d3;
+}
+.project-detail {
+  border: solid 1px #d3d3d3;
+}
+.project-name {
+  font-size: 18px;
+  padding: 20px;
+}
+.time {
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 20% 30% auto;
+  padding: 10px 20px;
+  border-top: solid 1px #d3d3d3;
+}
+.time i {
+  font-size: 18px;
+}
+table {
+  border-top: solid 1px #d3d3d3;
+  font-size: 16px;
+  border-collapse: collapse;
+}
+td {
+  padding: 15px;
+  vertical-align: top;
+}
+tr {
+  border-top: solid 1px #d3d3d3;
+}
+#project image:hover {
+  opacity: 0.5;
+}
+/* FOOTER */
+#footer {
+  background: #e5e4e2;
+}
+#footer .container {
+  text-align: center;
+}
+#footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 38px;
+  margin-bottom: 0;
+}
+#footer ul li {
+  margin: 0 30px;
+}
+#footer i {
+  font-size: 32px;
+  position: relative;
+  top: 2px;
+  color: #199cdb;
+}
+/* CERTIFICATE */
+#certificate {
+  background: #e5e4e2;
+}
+#certificate .body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 20px;
+  row-gap: 20px;
+}
+#certificate h1 {
+  padding: 40px 0;
+  margin-top: 10px;
+}
+#certificate img {
+  width: 200px;
+  height: auto;
+}
+#certificate .body > div {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  padding: 30px;
+}
+#certificate .info {
+  padding-left: 20px;
+}
+.cer-1 {
+  border-right: solid 1px #f57200;
+}
+.cer-4 {
+  border-top: solid 1px #f57200;
+}
+/* PROJECT - CLICKABLE IMAGE FOR PROJECT CHARTER */
+.more-info {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+.more-info:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
